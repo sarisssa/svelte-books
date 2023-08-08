@@ -7,7 +7,7 @@
 		<span class="text-3xl">Book Service</span>
 	</header>
 
-	<main>
+	<main class="h-full">
 		<slot />
 	</main>
 </div>

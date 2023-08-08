@@ -9,7 +9,7 @@ export async function load({ fetch }) {
 		headers: {
 			'Access-Control-Allow-Origin': '*'
 		}
-	}).then((x) => x.json())) as Promise<IBook>;
+	}).then((x) => x.json())) as IBook;
 
 	return {
 		books: [book]
